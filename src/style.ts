@@ -24,6 +24,7 @@ export const textDayHeaderFontSize = 13;
 export const todayButtonFontSize = 14;
 
 export const textDayStyle = undefined;
+export const selectedDayStyle = undefined;
 export const dotStyle = undefined;
 export const arrowStyle = undefined;
 
@@ -34,6 +35,7 @@ export const textSectionTitleDisabledColor = DISABLED_COLOR;
 export const selectedDayBackgroundColor = SECONDARY_TEXT_COLOR;
 export const selectedDayTextColor = FOREGROUND_COLOR;
 export const todayBackgroundColor = undefined;
+export const todayStyle = undefined;
 export const todayTextColor = SECONDARY_TEXT_COLOR;
 export const dayTextColor = DEFAULT_TEXT_COLOR;
 export const textDisabledColor = DISABLED_COLOR;

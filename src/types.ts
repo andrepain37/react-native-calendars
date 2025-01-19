@@ -1,3 +1,4 @@
+import { todayStyle } from './style';
 import {ViewStyle, TextStyle} from 'react-native';
 import {MarkingProps} from './calendar/day/marking';
 import {CalendarContextProps} from './expandableCalendar/Context';
@@ -63,6 +64,8 @@ export interface Theme {
   todayButtonFontWeight?: TextStyle['fontWeight'];
   todayButtonFontSize?: number;
   textDayStyle?: TextStyle;
+  selectedDayStyle?: ViewStyle;
+  todayStyle?: ViewStyle;
   dotStyle?: object;
   arrowStyle?: ViewStyle;
   todayBackgroundColor?: string;

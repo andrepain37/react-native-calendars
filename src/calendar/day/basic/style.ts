@@ -17,11 +17,13 @@ export default function styleConstructor(theme: Theme = {}) {
     },
     today: {
       backgroundColor: appStyle.todayBackgroundColor,
-      borderRadius: 16
+      borderRadius: 16,
+      ...appStyle.todayStyle
     },
     selected: {
       backgroundColor: appStyle.selectedDayBackgroundColor,
-      borderRadius: 16
+      borderRadius: 16,
+      ...appStyle.selectedDayStyle
     },
     
     text: {
